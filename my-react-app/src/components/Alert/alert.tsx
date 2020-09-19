@@ -1,5 +1,4 @@
 import React from 'react';
-import { connect } from 'http2';
 
 
 //属性：标题，内容，显示/隐藏

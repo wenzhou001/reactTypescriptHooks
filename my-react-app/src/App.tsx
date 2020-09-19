@@ -1,6 +1,6 @@
 import React from 'react';
-import logo from './logo.svg';
-import Button, { ButtonType, ButtonSize } from './components/Button/button';
+//import logo from './logo.svg';
+//import Button, { ButtonType, ButtonSize } from './components/Button/button';
 import Alert from './components/Alert/alert';
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
       <Button disabled btnType={ButtonType.Link} href="http://www.baidu.com">按钮二</Button>
       <Button btnType={ButtonType.Link} href="http://www.baidu.com">按钮二</Button> */}
 
-      <Alert showAlert={false} title='这里是标题' content="这里是内容"></Alert>
+      <Alert showAlert={true} title='这里是标题' content="这里是内容"></Alert>
     </div>
   );
 }
